@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #grandparent {
+        min-width: 100px;
+        min-height: 100px;
+        padding: 40px;
+        border: 1px solid black;
+        background-color: lightblue;
+      }
+      #parent {
+        min-width: 100px;
+        min-height: 100px;
+        padding: 40px;
+        border: 1px solid black;
+        background-color: lightgreen;
+      }
+      #child {
+        min-width: 100px;
+        min-height: 100px;
+        padding: 40px;
+        border: 1px solid black;
+        background-color: lightpink;
+      }
+    </style>
+    <!-- <script src="debouncing&Throttling.js" defer></script> -->
+    <script src="events.js" defer></script>
+  </head>
+  <body>
+    <h1>Nameste Javascript Practice</h1>
+    <h3 id="header">This header is for currying</h3>
+    <!-- Below DIV for deboucning -->
+    <div>
+      <input id="input" type="text" />
+      <p id="output"></p>
+    </div>
+    <!-- Below div is for events -->
+    <div id="grandparent">
+      <div id="parent">
+        <div id="child"></div>
+      </div>
+    </div>
+    <ul id="menu">
+      <li id="home">home</li>
+      <li id="about">about</li>
+      <li id="items">items</li>
+    </ul>
+    <!--  -->
+    <!--  -->
+    <!-- Below DIV is to check throttling -->
+    <div style="height: 100000px" id="throttle"></div>
+    <!--  -->
+  </body>
+</html>
