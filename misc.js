@@ -11,7 +11,8 @@ function flattenArray(arr) {
   }, []);
 }
 const a = [[[[1, 2], 3], 4, 5], [[6, 7], 8], [9], 10];
-//console.log(flattenArray(a));
+console.log(a);
+console.log("Flattened array: ", flattenArray(a));
 
 //Q Flaten deeply nested object
 
@@ -40,8 +41,8 @@ const obj = {
     i: [2, 5],
   },
 };
-
-//console.log(flattenObject(obj, ""));
+console.log(obj);
+console.log("Flattened object: ", flattenObject(obj, ""));
 
 //Q Shallow copy and deep copy
 // shallow copy only copied the fist level but points to the same referance for deeply nested array and objects
